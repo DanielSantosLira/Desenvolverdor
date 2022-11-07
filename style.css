@@ -12,10 +12,10 @@
 }
 
 body {
-    background: url(img/foto1.jpg);
-
-    height: 100%;
-    width: 100%;
+    background: url(img/foto1.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+   
    
 
 }
@@ -23,9 +23,7 @@ body {
 .conteine {
     text-align: center;
     align-items: center;
-    margin-top: 150px;
-   
-    padding: 30px;
+    margin-top: 250px;
     color: white;
 
 
@@ -42,9 +40,18 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     
 }
+h3{
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4{
+    padding: 15px;
+    
+}
 .fotos{
    display: flex;
-   justify-content:  baseline;
+   justify-content:space-between;
     align-items: center;
    
 }
