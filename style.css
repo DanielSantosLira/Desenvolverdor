@@ -62,6 +62,6 @@ h4{
   
 }
 .link:hover{
-  cursor: pointer;
+    cursor: pointer;
   transform: scale(1.1);
 }
