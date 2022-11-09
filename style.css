@@ -15,6 +15,7 @@ body {
     background: url(img/foto1.jpg)no-repeat;
     background-position: center;
     background-size: cover;
+    
    
    
 
@@ -58,5 +59,9 @@ h4{
 .link{
     width: 430px;
    
+  
+}
+.link:hover{
+  cursor: pointer;
   
 }
